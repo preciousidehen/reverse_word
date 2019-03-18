@@ -17,7 +17,7 @@ int main()
     
     string word;
     cout<<"Enter the word to reverse: "<<flush;
-    cin >> word;
+    getline(cin, word);
 
     for (int i=word.size()-1; i>=0; i--) 
     {
